@@ -20,6 +20,11 @@ app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
 //serve public folder as a static asset
 app.use(express.static("public"))
+
+app.get("/", (req, res) => {
+    res.sendFile(path.join(OUTPUT_DIR, "index.html"))
+})
+
 //at the request of the notes page serve notes.html
 app.get("/notes", (req, res) => {
     res.sendFile(path.join(OUTPUT_DIR, "notes.html"))
