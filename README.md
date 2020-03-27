@@ -7,6 +7,8 @@
 
 ![Screenshot](images/screenshot.png)
 
+[Deployed Site - Heroku](https://vast-citadel-14289.herokuapp.com/)
+
 [GitHub Repo](https://github.com/antonio36alv/note-taker)
 
 [Video Demo](https://drive.google.com/file/d/17JgkGFMLRRkSXnAaGVfejVQd2rSc9mpQ/view)

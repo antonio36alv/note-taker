@@ -73,6 +73,10 @@ app.delete("/api/notes/:id", async (req, res) => {
     }
 })
 
+app.get("/images/screenshot.png", (req, res) {
+    res.sendFile("/assets/images/screenshot.png")
+})
+
 app.get("*", (req, res) => {
     res.sendFile(path.join(OUTPUT_DIR, "index.html"))
 })
