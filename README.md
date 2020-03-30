@@ -3,7 +3,7 @@
 ![NodeJS badge](https://img.shields.io/badge/NodeJS-Powered%20by%20Javascript-green)
 ![Express badge](https://img.shields.io/badge/Express-Powered%20by%20Javascript-Blue)
 
-### GitHub Username: [antnio36alv](https://github.com/antonio36alv)
+### GitHub Username: [antonio36alv](https://github.com/antonio36alv)
 
 ![Screenshot](images/screenshot.png)
 
