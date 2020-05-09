@@ -77,6 +77,10 @@ app.get("/images/screenshot.png", (req, res) => {
     res.sendFile(path.join(OUTPUT_DIR, "/assets/images/screenshot.png"))
 })
 
+app.get("/images/emp-dir.png", (req, res) => {
+    res.sendFile(path.join(OUTPUT_DIR, "/assets/images/emp-dir.png"))
+})
+
 app.get("/resume", (req, res) => {
     res.sendFile(path.join(OUTPUT_DIR, "/assets/images/resume-2-2020.pdf"))
 })
